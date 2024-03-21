@@ -8,4 +8,5 @@
 #root{
   min-height: 100vh;
   display: flex;
+  background-color: rgba(252, 236, 8, 0.726);
 }

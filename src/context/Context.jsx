@@ -26,9 +26,10 @@ export const Context=createContext();
       setloading(true)
       setshowResult(true)
       setRecentPropmt(input)
+      setprevPrompt(prev=>[...prev,input])
      const response=await runChat(input)
      let responseArray=response.split("**");
-     let newResponse;
+     let newResponse="";
      for (let index = 0; index < responseArray.length; index++){
       if(index==0 || index%2!==1){
          newResponse+=responseArray[index]
