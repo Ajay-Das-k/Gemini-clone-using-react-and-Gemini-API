@@ -9,4 +9,13 @@
   min-height: 100vh;
   display: flex;
   background-color: rgba(252, 236, 8, 0.726);
+  animation: fadeIn 1.5s;
+}
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }

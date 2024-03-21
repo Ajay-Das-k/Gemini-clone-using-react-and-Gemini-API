@@ -20,14 +20,25 @@ export const Context=createContext();
       },75*index)
 
    }
+   const newChat=()=>{
+      setloading(false)
+      setshowResult(false)
+   }
 
    const onSent=async(prompt)=>{
       setresultData("")
       setloading(true)
       setshowResult(true)
-      setRecentPropmt(input)
-      setprevPrompt(prev=>[...prev,input])
-     const response=await runChat(input)
+      let response;
+      if(prompt !==undefined){
+         response=await runChat(prompt);
+         setRecentPropmt(prompt)
+      }else{
+         setprevPrompt(prev=>[...prev,input])
+         setRecentPropmt(input)
+         response=await runChat(input)
+      }
+   
      let responseArray=response.split("**");
      let newResponse="";
      for (let index = 0; index < responseArray.length; index++){
@@ -62,6 +73,7 @@ export const Context=createContext();
       resultData,
       input,
       setInput,
+      newChat
 
 
    }
