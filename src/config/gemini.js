@@ -51,6 +51,7 @@ async function runChat(promt) {
   const result = await chat.sendMessage(promt);
   const response = result.response;
   console.log(response.text());
+  return response.text();
 }
 
 export default runChat;
