@@ -18,13 +18,13 @@
 
 }
 .sidebar .new-chat{
-   margin-top: 10px;
+   margin-top: 50px;
    display: inline-flex;
    align-items: center;
    gap: 10px;
    padding: 10px 15px;
    background-color: #e6eaf1;
-   border: 50px;
+   border-radius: 50px;
    font-size: 14px;
    color: gray;
    cursor: pointer;
@@ -55,4 +55,8 @@
    display: flex;
    flex-direction: column;
 
+}
+.sidebar .bottom-item{
+   padding-right: 10px;
+   cursor: pointer;
 }
