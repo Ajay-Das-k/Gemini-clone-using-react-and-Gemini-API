@@ -4,8 +4,8 @@
 
 This project is a GeminiAI clone developed using React and the Gemini API. The web application integrates artificial intelligence (AI) features to provide users with interactive chat capabilities powered by Gemini's AI technology.
 
-## LiveLink Admin: [https://rc-hub-ecomerse-kmb2.onrender.com/](https://gemini-clone-using-react-and-gemini-api.vercel.app/)
-
+## LiveLink : [https://rc-hub-ecomerse-kmb2.onrender.com/](https://gemini-clone-using-react-and-gemini-api.vercel.app/)
+![logo_hires_EsXLFa1.gif](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/logo_hires_EsXLFa1.gif)
 ## Features
 
 - Interactive chat interface.
