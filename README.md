@@ -1,5 +1,5 @@
 # GeminiAI Clone using React and Gemini API
-
+![screenShot](1.png)
 ## Description
 
 This project is a GeminiAI clone developed using React and the Gemini API. The web application integrates artificial intelligence (AI) features to provide users with interactive chat capabilities powered by Gemini's AI technology.
@@ -27,6 +27,20 @@ This project is a GeminiAI clone developed using React and the Gemini API. The w
 - HTML
 - CSS
 - JavaScript
+
+## Getting Started
+
+To get started with the project, follow these steps:
+
+1. Go to the project directory.
+2. Install dependencies by running:
+   
+   ```bash
+   npm install --force
+3. Run Project by:
+   
+   ```bash
+   npm run dev
 
 ## Contributing
 
